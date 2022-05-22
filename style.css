@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&family=Shrikhand&display=swap');
 *,
 ::before,
 ::after{
@@ -9,13 +9,34 @@
 }
 body{
     margin: 0px;
+    font-family: "Roboto" "sans-serif";
 }
 header{
     font-family: "Shrikhand" "cursive";
     text-align: center;
-padding: 0.5rem;
-    box-shadow: 0 0 0.5rem gainsboro;
+    position: relative;
+padding: 1rem;
+    box-shadow: 0 0 0.8rem gray;
 
+}
+
+main .ville{
+    background-color: #f6f6f6;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+}
+
+main h1 {
+    font-size:2.5rem;
+}
+
+ .fa-map-marker-alt{
+    font-size: 2rem;
 }
 
 
